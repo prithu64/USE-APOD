@@ -33,7 +33,10 @@ function App() {
     localStorage.clear();
     
     try {
+      console.log("api try")
      const res =await fetch(url)
+     console.log("api hit")
+    
      const apiData = await res.json()
      localStorage.setItem(localKey,JSON.stringify(apiData))
      setData(apiData);
