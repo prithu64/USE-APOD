@@ -1,6 +1,4 @@
 import { useEffect, useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 import Main from './components/Main'
 import SideBar from './components/SideBar'
@@ -10,7 +8,7 @@ function App() {
   
  const [showModal,setShowModal] = useState(false)
  const [data,setData] = useState();
- const [loading,setLoading] = useState(false);
+
 
  function handleToggleModal(){
   setShowModal(!showModal)
