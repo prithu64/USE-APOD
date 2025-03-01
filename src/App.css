@@ -1,0 +1,7 @@
+@import "tailwindcss";
+@layer base {
+    :root {
+      font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+      @apply text-white bg-[#030615] leading-[1.5] font-normal;
+    }
+  }
