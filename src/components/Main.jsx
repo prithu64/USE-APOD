@@ -4,7 +4,7 @@ export default function Main({data}) {
             <img 
                 src={data?.hdurl} 
                 alt={data?.title || 'bg-img'} 
-                className=" flex flex-1 w-full max-h-screen object-fit"
+                className=" flex flex-1 w-full max-h-screen object-contain"
             />
         </div>
     );
